@@ -1,0 +1,52 @@
+.sidebar {
+  width: 200px;
+  background-color: #0a0a23;
+  color: #fff;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: width 0.3s ease;
+  padding-top: 60px;
+  overflow: hidden;
+  z-index: 1000;
+}
+
+.sidebar.collapsed {
+  width: 40px;
+}
+
+.toggle-btn {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  font-size: 24px;
+  cursor: pointer;
+  color: #fff;
+  background: transparent;  /* Make it transparent */
+  border: none;             /* Remove border */
+  padding: 8px;
+  z-index: 1001;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.nav-links li {
+  padding: 15px 20px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  transition: background 0.2s;
+}
+
+.nav-links a:hover {
+  background-color: #333;
+  border-radius: 4px;
+}

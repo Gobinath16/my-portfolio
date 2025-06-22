@@ -1,0 +1,19 @@
+/* About Me Section */
+.about-me p {
+  font-size: 14px;
+  font-weight: 500;
+  color: #f4f0f0;
+  text-align: justify;
+  margin: 10px 0;
+}
+.about-me li{
+font-size: 14px;   
+}
+.content-area {
+  margin-left: 200px;
+  transition: margin-left 0.3s ease;
+}
+
+.sidebar.collapsed ~ .content-area {
+  margin-left: 60px;
+}

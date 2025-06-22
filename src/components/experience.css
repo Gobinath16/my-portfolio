@@ -1,0 +1,73 @@
+/* Experience Section */
+.experience-section h1{
+  margin-top: 30px;
+  font-size: 36px;
+}
+
+.experience-entry {
+  margin-bottom: 30px;
+  font-size: 23px;
+  
+}
+
+.exp-header {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.exp-role-details {
+  display: flex;
+  font-size: 15px;
+  font-weight: bold;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.exp-meta {
+  display: flex;
+  gap: 20px;
+  font-size: 13px;
+  color: #ccc;
+  font-style: italic;
+}
+
+.company h1{
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  margin: 0;
+}
+
+.summary {
+  font-size: 16px;
+  margin: 10px 0 14px;
+  color: #e6e6e6;
+}
+
+.exp-points p {
+  position: relative;
+  padding-left: 18px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: #e6e6e6;
+  line-height: 1.6;
+}
+
+.exp-points strong {
+  color: #70bce1;
+  font-weight: 600;
+}
+
+.bullet-dot::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #66ccff;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+ 
